@@ -55,17 +55,13 @@ python table.py
 
 ---
 
-## 📄 License
-
-**School Management System by Gaurav Rayat** is released under the **GNU General Public License (GPL)**.
-
 # Getting Started 🚀
 ***
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-username/school-management-system.git
-cd school-management-system
+git clone https://github.com/GAURAV-RAYAT/school_management_system.git
+cd school_management_system
 ```
 
 ## Install Requirements
