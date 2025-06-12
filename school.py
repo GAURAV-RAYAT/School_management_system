@@ -5,12 +5,11 @@ import time
 import os
 
 try:
-    import MySQLdb as connector     #pip install MySQLdb
+    import mysql.connector as connector  # pip install mysql-connector-python
 except:
-    print("MySQLdb Not Installed")
-    print("Installing MySQLdb")
-    os.system("pip3 install MySQLdb")
-    import MySQLdb as connector
+    print("mysql-connector-python Not Installed")
+    os.system("pip install mysql-connector-python")
+    import mysql.connector as connector
 
 try:
     from pandas import *            #pip install pandas
@@ -24,7 +23,7 @@ try:
 except:
     print("Matplotlib not installed")
     os.system("pip3 install matplotlib")
-    import matplotlib.pylot as plt
+    import matplotlib.pyplot as plt
 
 try:
     from rich.console import Console

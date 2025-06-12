@@ -1,5 +1,0 @@
-pip3 install MySQLdb
-pip3 install pandas
-pip3 install password_strength
-pip3 install numpy
-pip3 install rich
